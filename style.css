@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    font-family: "Martel Sans", sans-serif;
+}
+.main{
+    background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+    height: 70vh;
+    position: relative;
+}
+.main .box{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    
+}
+nav{
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+nav img{
+    width: 114px;
+    color: red;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: "Martel Sans", sans-serif;
+    gap: 18px;
+    padding:0 30PX;
+
+}
+.hero> :nth-child(1){
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 74px;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-weight: 500;
+    font-size: 21px;
+    line-height: normal;
+    text-align: center;
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+}
+.sepration{
+    height: 7px;
+    background-color: rgb(63, 63, 63);
+
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+}
+.btn-red{
+    background-color: rgb(229, 9, 20);;
+    color:white;
+    height: 59.4px;
+    width: 226.58px;
+    font-size: 26px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    font-family: "Martel Sans", sans-serif;
+}
+.btn-red-sm{
+    background-color: rgb(229, 9, 20);;
+    color: white;
+    width: 81.7px;
+    height: 34px;
+    margin-right: 7px;
+    border-radius: 4px;
+    border: none;
+    font-size: 17px;
+    font-weight: bolder;
+    cursor:pointer;
+    font-family: "Martel Sans", sans-serif;
+}
+.btn-language{
+    height: 34px;
+    width: 132.38px;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor:pointer;
+    font-family: "Martel Sans", sans-serif;
+    padding-right: 10px;
+    padding-right: 5px;
+    z-index: 11;
+
+}
+.textbox{
+    height: 59.4px;
+    width: 389.62px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    border: 1px solid rgb(211, 207, 207);
+    font-size: 17px;
+    font-weight: 400;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding-left: 7px;
+    font-family: "Martel Sans", sans-serif;
+}
+.filling{
+    display: flex;
+    align-items: flex-start;
+}
+
+/** section 1**/
+h2 {
+      margin-bottom: 20px;
+      padding-left: 125px;
+      margin-top: 10px;
+      font-size: 28px;
+      font-weight: bolder;
+      color: white;
+      font-family: "Martel Sans", sans-serif; 
+    }
+
+    .trending-container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding-left: 157.25px;
+      padding-right: 157.25px;
+      padding-bottom: 50px;
+    }
+
+    .card {
+      position: relative;
+      width: 180px;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .card img {
+      width: 100%;
+      display: block;
+      border-radius: 12px;
+    }
+
+    .number-box {
+      position: absolute;
+      bottom: 8px;
+      left: 8px;
+      background-color: black;
+      color: white;
+      font-size: 48px;
+      font-weight: bold;
+      padding: 2px 15px;
+      border-radius: 10px;
+      border: 2px solid white;
+      font-family: Arial, sans-serif;
+      line-height: 1;
+    }
+    /** section 2**/
+    .second h2{
+      margin-bottom: 20px;
+      margin-top: 10px;
+      font-size: 28px;
+      font-weight: bolder;
+      color: white;
+      padding-left: 157.25px;
+    }
+    .box-area{
+        display: flex;
+        padding-left: 157.25px;
+        padding-right: 157.25px;
+    }
+
+    .box{
+        height: 339.5px;
+        width: 246.38px;
+        background-color: rgb(32 20 51);
+        border-radius: 15px;
+        position: relative;
+        margin-right: 15px;
+    }
+    .box h3{
+        font-size: 26px;
+        font-weight: 700;
+        color: white;
+        margin-top: 3px;
+        padding-top: 20px;
+        padding-left: 11px;
+        padding-right: 11px;
+        padding-bottom: 8px;
+        line-height: 28px;
+    }
+    .box p{
+        font-size: 17px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.7);
+        padding-top: 0;
+        padding-left: 11px;
+        padding-right: 11px;
+        line-height: 20px;
+    }
+    .box div{
+        position: absolute;
+        bottom: 15px;
+        left: 160px;
+        color: aliceblue;
+
+    }
+
+    /** section 3**/
+    .third h3{
+      margin-bottom: 20px;
+      margin-top: 10px;
+      font-size: 28px;
+      font-weight: bolder;
+      color: white;
+      padding-left: 157.25px;
+      margin-top: 35px;
+
+    }
+    .accordion {
+      max-width: 1000px;
+      margin-left: 157.25px;
+    }
+
+    .accordion-item {
+      height: 50px;
+      width: 1000px;  
+      background-color: #2d2d2d;
+      color: white;
+      border: 1px solid #111;
+      margin-bottom: 8px;
+      padding: 20px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .accordion-item:hover {
+      background-color: rgb(65, 65, 65);
+    }
+
+    .accordion-title {
+      font-size: 28px;
+      font-weight: 400;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .accordion-icon {
+      font-size: 48px;
+      font-weight: bold;
+      line-height: 1;
+    }
+
+    .down{
+        margin: 100px;
+    }
+
+    /** footer **/
+    footer {
+      padding: 40px 20px;
+      background-color: black;
+      text-align: center;
+    }
+
+    .cta-text {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .email-form {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 40px;
+    }
+
+    .email-form input[type="email"] {
+      padding: 16px;
+      font-size: 16px;
+      border: 1px solid #555;
+      border-radius: 4px;
+      background-color: #1e1e1e;
+      color: white;
+      width: 596.85px;
+    }
+
+    .email-form button {
+      background-color: red;
+      color: white;
+      font-size: 18px;
+      padding: 16px 24px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 226.58px;
+    }
+
+    .support {
+      margin-bottom: 30px;
+      font-size: 14px;
+    }
+
+    .support a {
+      color: #b3b3b3;
+      text-decoration: underline;
+    }
+
+    .footer-links {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      max-width: 900px;
+      margin: 0 auto 30px;
+      text-align: left;
+    }
+
+    .footer-links a {
+      color: #b3b3b3;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+
+    .language-select {
+      background-color: transparent;
+      color: white;
+      border: 1px solid #666;
+      padding: 8px 12px;
+      border-radius: 4px;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .footer-bottom {
+      font-size: 14px;
+      color: #666;
+    }
+
+    @media (max-width: 768px) {
+      .footer-links {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .email-form {
+        flex-direction: column;
+      }
+      .email-form input[type="email"] {
+        width: 100%;
+      }
+    }
+
+    .text{
+        color: white;
+        margin-bottom: 0;
+    }
